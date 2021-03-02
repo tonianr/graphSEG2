@@ -1,0 +1,2 @@
+# graphSEG2
+This project focuses on creating an interactive Seismic Refraction plot to save data points related to the direct and refracted wave returns. The use of seismic refraction datasets is crucial to Near-surface geophysical explorations and are often used to delineate depths to bedrock. This project will utilize the Obspy python framework to read SEG2 refraction datasets and plot interactive stream datasets using the matplotlib.pyplot.ginput function.
