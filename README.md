@@ -19,11 +19,23 @@ Table of contents
 
 ## Installation
 
-- (1)	Add obspy to separate conda environment:
+1.	Add obspy to separate conda environment:
 ```bash 
 conda create -n obspy python=3.6.
 ```
-ii.	Initialize the environment using the command while in the anaconda command prompt: conda activate obspy.
-iii.	Since this module works best with spyder in activated obspy environment install spyder using conda install spyder then conda update --all. 
-iv.	For missing dependencies e.g. pandas use conda install pandas. 
-v.	To get started, activate spyder by typing spyder in open terminal.
+2.	Initialize the environment using the command while in the anaconda command prompt: 
+```bash
+conda activate obspy.
+```
+3.	Since this module works best with spyder, while in activated obspy environment install spyder using:
+```bash 
+conda install spyder 
+```
+then update all packages using:
+```bash 
+conda update --all 
+```
+4.	For missing dependencies e.g. pandas use:
+`<conda install pandas>`
+
+6.	To get started, activate spyder by typing spyder in open terminal.
