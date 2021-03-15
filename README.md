@@ -8,7 +8,7 @@ Table of contents
 - [Installation](#Installation)
 - [Importing](#Importing-function)
 - [graphSEG2.pick](#graphSEG2.pick)
-  *  [Making First Arrival Picks](#first-arrivals): run a quick tour.
+  *  [Making First Arrival Picks](#first-arrivals)
 - [graphSEG2.analyze](#graphSEG2.analyze)
   *  [Slope Break Method](#slope-break)
   *  [Linestatistics.py](#linestatistics)
@@ -18,7 +18,12 @@ Table of contents
 
 
 ## Installation
-i.	Add obspy to separate conda environment: conda create -n obspy python=3.6. 
+```bash
+obspyDMT --tour
+```
+i.	Add obspy to separate conda environment:
+```bash conda create -n obspy python=3.6.
+```
 ii.	Initialize the environment using the command while in the anaconda command prompt: conda activate obspy.
 iii.	Since this module works best with spyder in activated obspy environment install spyder using conda install spyder then conda update --all. 
 iv.	For missing dependencies e.g. pandas use conda install pandas. 
