@@ -21,11 +21,11 @@ Table of contents
 
 1.	Add obspy to separate conda environment:
 ```bash 
-conda create -n obspy python=3.6.
+conda create -n obspy python=3.6
 ```
 2.	Initialize the environment using the command while in the anaconda command prompt: 
 ```bash
-conda activate obspy.
+conda activate obspy
 ```
 3.	Since this module works best with spyder, while in activated obspy environment install spyder using:
 ```bash 
@@ -36,6 +36,14 @@ then update all packages using:
 conda update --all 
 ```
 4.	For missing dependencies e.g. pandas use:
-`<conda install pandas>`
-
+``` bash
+conda install pandas
+```
 6.	To get started, activate spyder by typing spyder in open terminal.
+
+
+## Importing
+
+To import the function, use the code:`from graphSEG2_v2 import graphSEG2` in python script.
+This allows the user script in use to have access to the graphSEG2 function and its executables. While in spyder highlight graphSEG2_v2 in the script and press *CTRL + i* for a mini user guide.
+
