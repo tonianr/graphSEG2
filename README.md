@@ -18,11 +18,10 @@ Table of contents
 
 
 ## Installation
-```bash
-obspyDMT --tour
-```
-i.	Add obspy to separate conda environment:
-```bash conda create -n obspy python=3.6.
+
+- (1)	Add obspy to separate conda environment:
+```bash 
+conda create -n obspy python=3.6.
 ```
 ii.	Initialize the environment using the command while in the anaconda command prompt: conda activate obspy.
 iii.	Since this module works best with spyder in activated obspy environment install spyder using conda install spyder then conda update --all. 
