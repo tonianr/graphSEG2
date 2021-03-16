@@ -7,7 +7,7 @@ Table of contents
 -----------------
 - [Installation](#Installation)
 - [Importing](#Importing)
-- [Plot](#plot)
+- [SEG2grpaher.plot](#seg2grapherplot)
 - [Pick](#pick)
   *  [Making First Arrival Picks](#first-arrivals)
 - [Analyze](#analyze)
