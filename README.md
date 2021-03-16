@@ -7,12 +7,13 @@ Table of contents
 -----------------
 - [Installation](#Installation)
 - [Importing](#Importing-function)
-- [graphSEG2.pick](#graphSEG2.pick)
+- [SEG2grapher.plot](#SEG2grapher.plot)
+- [SEG2grapher.pick](#SEG2grapher.pick)
   *  [Making First Arrival Picks](#first-arrivals)
-- [graphSEG2.analyze](#graphSEG2.analyze)
+- [SEG2grapher.analyze](#SEG2grapher.analyze)
   *  [Slope Break Method](#slope-break)
   *  [Linestatistics.py](#linestatistics)
-- [graphSEG2.crossover](#graphSEG2.crossover)
+- [SEG2grapher.crossover](#graphSEG2.crossover)
   *  [Findclosestpoint.py](#Findclosestpoint)
   *  [Running Findclosestpoint.py](#RunningFindclosestpoint.py)
 
@@ -47,3 +48,16 @@ conda install pandas
 To import the function, use the code:`from graphSEG2_v2 import graphSEG2` in python script.
 This allows the user script in use to have access to the graphSEG2 function and its executables. While in spyder highlight graphSEG2_v2 in the script and press *CTRL + i* for a mini user guide.
 
+## SEG2grapher.plot
+SEG2grapher.plot allows the user to plot Seismic Refraction datasets by utilizing the obspy.read SEG2 support function. To execute the SEG2grapher.plot, the user will need to input a filename, gain. The user will also use this function to make estimates on the best gain value to use for the input file.
+SEG2grapher.plot(filename, gain)
+SEG2grapher.plot(‘304.dat’,15)
+Where:
+i.	Filename (str) – should contain a string, e.g., ‘103.dat.’
+ii.	Gain (int) – should be an integer, e.g., 1 for no gain or 10 to amplify the dataset by a factor of 10
+
+## SEG2grapher.pick
+
+## SEG2grapher.analyze
+
+## SEG2grapher.crossover
