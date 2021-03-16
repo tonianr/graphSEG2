@@ -1,4 +1,4 @@
-# graphSEG2: a Python based interactive Seismic Refraction Graphing Toolset. 
+# graphSEG2: a Python based interactive Seismic Refraction Graphing Toolset 
 
 The use of seismic refraction datasets is crucial to Near-surface geophysical explorations and are often used to delineate depths to bedrock. This project will utilize the Obspy python framework to read SEG2 refraction datasets and plot interactive stream datasets using the matplotlib.pyplot.ginput function.
 
@@ -74,7 +74,7 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-   **Making First Arrival Picks**
+   ###### Making First Arrival Picks
    First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
    * selecting = LEFT MOUSE
    * removing point = RIGHT MOUSE
