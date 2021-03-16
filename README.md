@@ -72,7 +72,7 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-### Making First Arrival Picks
+#### Making First Arrival Picks
 First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
    * selecting = LEFT MOUSE
    * removing point = RIGHT MOUSE
@@ -126,7 +126,7 @@ Example when prompted in console:
 Write the output file's name as filename.txt: ./foldername/103.txt
 ```
 ## Possible Hiccups
-### non-GUI Backend Error
+#### non-GUI Backend Error
 Error message in console: *Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.*
 Fix by changing IPython Console graphics backend to Qt5 in the Preferences window. Source: https://stackoverflow.com/questions/36700083/in-spyder-plot-using-matplotlib-with-interactive-zoom-etc	
 
