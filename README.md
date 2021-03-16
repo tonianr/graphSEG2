@@ -7,13 +7,13 @@ Table of contents
 -----------------
 - [Installation](#Installation)
 - [Importing](#Importing)
-- [SEG2grapher.plot](#plot)
-- [SEG2grapher.pick](#pick)
+- [Plot](#plot)
+- [Pick](#pick)
   *  [Making First Arrival Picks](#first-arrivals)
-- [SEG2grapher.analyze](#analyze)
+- [Analyze](#analyze)
   *  [Slope Break Method](#slope-break)
   *  [Linestatistics.py](#linestatistics)
-- [SEG2grapher.crossover](#crossover)
+- [Crossover](#crossover)
   *  [Findclosestpoint.py](#Findclosestpoint)
   *  [Running Findclosestpoint.py](#RunningFindclosestpoint.py)
 
@@ -70,14 +70,16 @@ Where:
 3.	Nclicks (*int*) – typically the number of geophones used within the survey, e.g., 24
 4.	Original name (*str*) – program asks if the user wants to save the file’s original name after completing the first arrival picks. ‘true’ indicates that the user would like to save picks with the files original name while ‘false’ prompts the user to enter the desirable name after completing picks. The input filename should be filename.txt, with no quotations.
 5.	Startpicks (*str*) – user will need to specific if they will be picking first arrivals or viewing the plot by setting startpicking to ‘true’ or ‘false’, where ‘true’ indicates picking first arrivals.
+
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
 ## Making First Arrival Picks
 First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
->>> selecting  LEFT MOUSE
->>> removing point  RIGHT MOUSE
->>>	end selection  ENTER
+* selecting = LEFT MOUSE
+* removing point = RIGHT MOUSE
+*	end selection = ENTER
+
 **NB** Note that the user defined Nclicks is the maximum number of selections the user is allowed but one can exit the selection mode by simply pressing ENTER.
 
 
