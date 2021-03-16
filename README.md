@@ -9,14 +9,12 @@ Table of contents
 - [Importing](#Importing)
 - [SEG2grapher.plot](#seg2grapherplot)
 - [SEG2grapher.pick](#seg2grapherpick)
-  *  [Making First Arrival Picks](###making-first-arrivals-picks)
+  * [Making First Arrival Picks](#making-first-arrivals-picks)
 - [SEG2grapher.analyze](#seg2grapheranalyze)
-  *  [Slope Break Method](#slope-break-method)
-  *  [Linestatistics.py](#linestatistics)
 - [SEG2grapher.crossover](#seg2graphercrossover)
-  *  [Findclosestpoint.py](#findclosestpoint)
-  *  [Running Findclosestpoint.py](#runningFindclosestpoint.py)
-
+- [Other Information](#other-information)
+- [Possible Hiccups](#possible-hiccups)
+  * [non-GUI Backend Error](#non-GUI-Backend-Error)
 
 ## Installation
 
@@ -74,7 +72,7 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-   #### Making First Arrival Picks
+   ## Making First Arrival Picks
    First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
    * selecting = LEFT MOUSE
    * removing point = RIGHT MOUSE
@@ -104,4 +102,32 @@ SEG2grapher.crossover (‘300.txt’)
 ````
 Where:
 1.	Filename (*str*) – should contain a string, e.g., ‘103.txt.’ This text file should have x,y dataset space or tab-separated. Where the x column is the distance, and the y column is the time.
+
+## Other Information
+**Loading file from another folder**
+When loading file from folder make sure to source folder.
+Example:
+```
+SEG2grapher.pick(‘./foldername/300.dat’,15, 100,24,'false')
+```
+OR
+```
+SEG2grapher.analyze('./foldername/102.txt','true')
+```
+OR
+```
+SEG2grapher.crossover('./foldername/102.txt')
+```
+
+**Saving pick txt file to specified folder**
+When prompted to input output file name after picking first arrivals (SEG2grapher.pick original name set to ‘false’) user can add specific file location.
+Example when prompted in console:
+```
+Write the output file's name as filename.txt: ./foldername/103.txt
+```
+## Possible Hiccups
+### non-GUI Backend Error
+Error message in console: *Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.*
+Fix by changing IPython Console graphics backend to Qt5 in the Preferences window. Source: https://stackoverflow.com/questions/36700083/in-spyder-plot-using-matplotlib-with-interactive-zoom-etc	
+
 
