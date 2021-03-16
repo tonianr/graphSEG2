@@ -9,7 +9,7 @@ Table of contents
 - [Importing](#Importing)
 - [SEG2grapher.plot](#seg2grapherplot)
 - [SEG2grapher.pick](#seg2grapherpick)
-  *  [Making First Arrival Picks](#making-first-arrivals-picks)
+  *  [Making First Arrival Picks](###making-first-arrivals-picks)
 - [SEG2grapher.analyze](#seg2grapheranalyze)
   *  [Slope Break Method](#slope-break-method)
   *  [Linestatistics.py](#linestatistics)
