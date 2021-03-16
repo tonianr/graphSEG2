@@ -9,13 +9,13 @@ Table of contents
 - [Importing](#Importing)
 - [SEG2grpaher.plot](#seg2grapherplot)
 - [SEG2grpaher.pick](#seg2grapherpick)
-  *  [Making First Arrival Picks](#first-arrivals)
+  *  [Making First Arrival Picks](#making-first-arrivals-picks)
 - [SEG2grpaher.analyze](#seg2grapheranalyze)
   *  [Slope Break Method](#slope-break-method)
   *  [Linestatistics.py](#linestatistics)
 - [SEG2grpaher.crossover](#seg2graphercrossover)
-  *  [Findclosestpoint.py](#Findclosestpoint)
-  *  [Running Findclosestpoint.py](#RunningFindclosestpoint.py)
+  *  [Findclosestpoint.py](#findclosestpoint)
+  *  [Running Findclosestpoint.py](#runningFindclosestpoint.py)
 
 
 ## Installation
@@ -74,7 +74,7 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-## Making First Arrival Picks
+### Making First Arrival Picks
 First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
 * selecting = LEFT MOUSE
 * removing point = RIGHT MOUSE
