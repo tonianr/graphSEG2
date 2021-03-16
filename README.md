@@ -74,7 +74,7 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-   ###### Making First Arrival Picks
+   #### Making First Arrival Picks
    First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
    * selecting = LEFT MOUSE
    * removing point = RIGHT MOUSE
