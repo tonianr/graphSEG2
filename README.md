@@ -7,13 +7,13 @@ Table of contents
 -----------------
 - [Installation](#Installation)
 - [Importing](#Importing)
-- [SEG2grpaher.plot](#seg2grapherplot)
-- [SEG2grpaher.pick](#seg2grapherpick)
+- [SEG2grapher.plot](#seg2grapherplot)
+- [SEG2grapher.pick](#seg2grapherpick)
   *  [Making First Arrival Picks](#making-first-arrivals-picks)
-- [SEG2grpaher.analyze](#seg2grapheranalyze)
+- [SEG2grapher.analyze](#seg2grapheranalyze)
   *  [Slope Break Method](#slope-break-method)
   *  [Linestatistics.py](#linestatistics)
-- [SEG2grpaher.crossover](#seg2graphercrossover)
+- [SEG2grapher.crossover](#seg2graphercrossover)
   *  [Findclosestpoint.py](#findclosestpoint)
   *  [Running Findclosestpoint.py](#runningFindclosestpoint.py)
 
