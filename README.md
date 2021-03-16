@@ -6,8 +6,8 @@ The use of seismic refraction datasets is crucial to Near-surface geophysical ex
 Table of contents
 -----------------
 - [Installation](#Installation)
-- [Importing](#Importing-function)
-- [SEG2grapher.plot](#SEG2grapher-plot)
+- [Importing](#Importing)
+- [SEG2grapher-plot](#SEG2grapher.plot)
 - [SEG2grapher.pick](#SEG2grapher-pick)
   *  [Making First Arrival Picks](#first-arrivals)
 - [SEG2grapher.analyze](#SEG2grapher-analyze)
@@ -57,8 +57,8 @@ SEG2grapher.plot(filename, gain)
 SEG2grapher.plot(‘304.dat’,15)
 ```
 Where:
-**i.	Filename (str) – should contain a string, e.g., ‘103.dat.’
-**ii.	Gain (int) – should be an integer, e.g., 1 for no gain or 10 to amplify the dataset by a factor of 10
+**1.	Filename (str) – should contain a string, e.g., ‘103.dat.’
+**2.	Gain (int) – should be an integer, e.g., 1 for no gain or 10 to amplify the dataset by a factor of 10
 
 ## SEG2grapher.pick
 
