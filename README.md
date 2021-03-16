@@ -46,7 +46,7 @@ conda install pandas
 ## Importing
 
 To import the function, use the code:`from graphSEG2_v2 import graphSEG2` in python script.
-This allows the user script in use to have access to the graphSEG2 function and its executables. While in spyder highlight graphSEG2_v2 in the script and press *CTRL + i* for a mini user guide.
+This allows the user script in use to have access to the graphSEG2 function and its executables. While in spyder highlight graphSEG2 in the script and press *CTRL + i* for a mini user guide.
 
 ## SEG2grapher.plot
 SEG2grapher.plot allows the user to plot Seismic Refraction datasets by utilizing the obspy.read SEG2 support function. To execute the SEG2grapher.plot, the user will need to input a filename, gain. The user will also use this function to make estimates on the best gain value to use for the input file.
@@ -82,7 +82,16 @@ First arrival picking in the module utilizes matplotlib.pyplot.ginput for intera
 
 **NB** Note that the user defined Nclicks is the maximum number of selections the user is allowed but one can exit the selection mode by simply pressing ENTER.
 
-
 ## SEG2grapher.analyze
+SEG2grapher.analyze allows the user to plot and analyze Seismic Refraction first arrival picks using a Slope Break method to find possible kinks in the plotted first arrivals that would represent the crossover point. To execute the SEG2grapher.analyze, the user will need to input a pick file and show_autocrossover.
+```bash
+SEG2grapher.analyze(pckfilename, show_autocrossover)
+```
+````bash
+SEG2grapher.analyze(‘300.txt’,'false')
+````
+Where:
+1.	Pckfilename (*str*) – should contain a string of the text file, e.g., ‘103.txt.’ This text file should have x,y dataset space or tab-separated. Where the x column is the distance, and the y column is the time.
+2.	Show_autocrossover (*str*) – indicates whether the user would like to plot all possible crossover points on the analysis plot; ‘true’ shows slope breaks while ‘false’ plots only the analysis and final crossover point. 
 
 ## SEG2grapher.crossover
