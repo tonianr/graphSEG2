@@ -74,11 +74,11 @@ Where:
 **NB**	Important notice: Zoom tool   in interactive figure window allows user to clearly see first arrivals for picking, however the user risks added an unwanted selection point. If the user does decides to use the zoom tool, the user should click the right mouse after zooming to remove any unwanted point selections.
 After running the above code, the user is prompted to read a mini guide and informed to press ENTER to continue or CTRL+C to end.
 
-### Making First Arrival Picks
-First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
-* selecting = LEFT MOUSE
-* removing point = RIGHT MOUSE
-*	end selection = ENTER
+   ### Making First Arrival Picks
+   First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
+   * selecting = LEFT MOUSE
+   * removing point = RIGHT MOUSE
+   *	end selection = ENTER
 
 **NB** Note that the user defined Nclicks is the maximum number of selections the user is allowed but one can exit the selection mode by simply pressing ENTER.
 
@@ -95,3 +95,13 @@ Where:
 2.	Show_autocrossover (*str*) – indicates whether the user would like to plot all possible crossover points on the analysis plot; ‘true’ shows slope breaks while ‘false’ plots only the analysis and final crossover point. 
 
 ## SEG2grapher.crossover
+SEG2grapher.crossover allows the user to plot Seismic Refraction first arrival picks from text file and select desired crossover point. To execute the SEG2grapher.crossover, the user will need to input a filename.
+`````bash
+SEG2grapher.crossover(filename)
+`````
+````
+SEG2grapher.crossover (‘300.txt’)\
+````
+Where:
+1.	Filename (*str*) – should contain a string, e.g., ‘103.txt.’ This text file should have x,y dataset space or tab-separated. Where the x column is the distance, and the y column is the time.
+
