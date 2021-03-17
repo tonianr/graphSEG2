@@ -1,6 +1,6 @@
 # graphSEG2: a Python based interactive Seismic Refraction Graphing Toolset 
 
-The use of seismic refraction datasets is crucial to Near-surface geophysical explorations and are often used to delineate depths to bedrock. This project will utilize the Obspy python framework to read SEG2 refraction datasets and plot interactive stream datasets using the matplotlib.pyplot.ginput function.
+The use of seismic refraction datasets is crucial to Near-surface geophysical explorations and are often used to delineate depths to bedrock. This python 3 module utilizes the Obspy framework to read SEG2 refraction datasets and plot interactive stream datasets using the matplotlib.pyplot.ginput function.
 
 
 Table of contents
