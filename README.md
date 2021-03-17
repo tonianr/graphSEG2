@@ -5,7 +5,7 @@ The use of seismic refraction datasets is crucial to Near-surface geophysical ex
 
 Table of contents
 -----------------
-- [Installation](#Installation)
+- [Recommended ObsPy Installation](#Recommended-ObsPy-Installation)
 - [Importing](#Importing)
 - [SEG2grapher.plot](#seg2grapherplot)
 - [SEG2grapher.pick](#seg2grapherpick)
@@ -16,7 +16,7 @@ Table of contents
 - [Possible Hiccups](#possible-hiccups)
   * [non-GUI Backend Error](#non-GUI-Backend-Error)
 
-## Installation
+## Recommended ObsPy Installation
 
 1.	Add obspy to separate conda environment:
 ```bash 
