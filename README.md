@@ -127,7 +127,8 @@ Write the output file's name as filename.txt: ./foldername/103.txt
 ```
 ## Possible Hiccups
 #### non-GUI Backend Error
-Error message in console: *Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.*
+Error message in console: *Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.* OR there is no figure window pop-up after running the module.
+```
 Fix by changing IPython Console graphics backend to Qt5 in the Preferences window. Source: https://stackoverflow.com/questions/36700083/in-spyder-plot-using-matplotlib-with-interactive-zoom-etc	
-
+```
 
