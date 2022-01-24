@@ -39,7 +39,9 @@ conda install -c conda-forge spyder
 conda install pandas
 ```
 6.	To get started, activate spyder by typing spyder in open terminal.
-
+``` bash
+spyder
+```
 
 
 ## Importing
