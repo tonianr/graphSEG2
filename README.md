@@ -79,7 +79,7 @@ After running the above code, the user is prompted to read a mini guide and info
 #### Making First Arrival Picks
 First arrival picking in the module utilizes matplotlib.pyplot.ginput for interactive selections. When picking points: 
    * selecting = LEFT MOUSE
-   * removing point = RIGHT MOUSE
+   * removing point = RIGHT MOUSE or CENTER MOUSE
    *	end selection = ENTER
 
 **NB** Note that the user defined Nclicks is the maximum number of selections the user is allowed but one can exit the selection mode by simply pressing ENTER.
