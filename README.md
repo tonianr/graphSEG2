@@ -103,13 +103,14 @@ Where:
 ## SEG2grapher.crossover
 SEG2grapher.crossover allows the user to plot Seismic Refraction first arrival picks from text file and select desired crossover point. To execute the SEG2grapher.crossover, the user will need to input a filename.
 `````bash
-SEG2grapher.crossover(filename)
+SEG2grapher.crossover(filename, Show_autocrossover )
 `````
 ````
-SEG2grapher.crossover (‘300.txt’)
+SEG2grapher.crossover (‘300.txt’,'true')
 ````
 Where:
 1.	Filename (*str*) – should contain a string, e.g., ‘103.txt.’ This text file should have x,y dataset space or tab-separated. Where the x column is the distance, and the y column is the time.
+2.	Show_autocrossover (*str*) – indicates whether the user would like to plot all possible crossover points on the analysis plot; ‘true’ shows slope breaks while ‘false’ plots only the analysis and final crossover point.
 
 ## Other Information
 **Loading file from another folder**
