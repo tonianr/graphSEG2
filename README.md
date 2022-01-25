@@ -62,6 +62,10 @@ Where:
 1.	Filename (*str*) – should contain a string, e.g., ‘103.dat.’
 2.	Gain (*int*) – should be an integer, e.g., 1 for no gain or 10 to amplify the dataset by a factor of 10
 
+![image](https://user-images.githubusercontent.com/78233913/151029942-4e87d072-44fe-4dc8-9fe8-33e4557505b4.png)
+
+
+
 ## SEG2grapher.pick
 SEG2grapher.pick allows the user to pick first arrivals for Seismic Refraction datasets by utilizing the obspy.read SEG2 support function. To execute the SEG2grapher.pick, the user will need to input a filename, gain, nclicks, original name and startpicks. 
 SEG2grapher.pick(filename, gain, nclicks, originalname, startpicks)
